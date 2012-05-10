@@ -1,0 +1,13 @@
+{
+  "name": "PhotoAndClock",
+  "version": "0.1",
+  "description": "A browser action with a popup clock favorite image (in 'photolist' folder *.jpg, *.gif, *.png ..)",
+  "permissions": [
+    "bookmarks"
+  ],
+  "browser_action": {
+      "default_title": "musumedokei",
+      "default_icon": "favicon_p.ico",
+      "default_popup": "popup.html"
+  }
+}
